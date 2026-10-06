@@ -3,7 +3,7 @@ description: 'Download and install the Zig compiler, and cache the global Zig ca
 inputs:
   version:
     description: 'Version of the Zig compiler, e.g. "0.13.0" or "0.13.0-dev.351+64ef45eb0". "master" uses the latest nightly build. "latest" uses the latest tagged release. Leave empty to use minimum_zig_version from build.zig.zon, with a fallback to "latest".'
-    default: ''
+    default: '0.16.0'
   mirror:
     description: 'Override of Zig download mirror to use, e.g. "https://pkg.machengine.org/zig".'
     required: false
